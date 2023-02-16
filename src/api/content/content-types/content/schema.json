@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TitleIdentifier": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "text"
+    },
+    "SubHeading": {
+      "type": "text"
+    },
+    "Paragraph": {
+      "type": "text"
+    }
+  }
+}
