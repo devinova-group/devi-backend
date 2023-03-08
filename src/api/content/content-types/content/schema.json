@@ -12,17 +12,86 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "TitleIdentifier": {
-      "type": "string"
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
-    "Heading": {
-      "type": "text"
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "bot",
+        "top",
+        "right",
+        "left"
+      ]
     },
-    "SubHeading": {
-      "type": "text"
+    "section": {
+      "type": "uid",
+      "required": true
     },
-    "Paragraph": {
-      "type": "text"
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "subheading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "backgroundimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "darkbackgroundimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.button"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "compType": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "services",
+        "contact"
+      ],
+      "default": "main",
+      "required": true
     }
   }
 }
