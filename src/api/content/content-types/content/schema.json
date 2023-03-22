@@ -26,11 +26,10 @@
     "position": {
       "type": "enumeration",
       "enum": [
-        "bot",
-        "top",
         "right",
         "left"
-      ]
+      ],
+      "default": "right"
     },
     "section": {
       "type": "uid",
@@ -92,6 +91,34 @@
       ],
       "default": "main",
       "required": true
+    },
+    "gap": {
+      "type": "biginteger",
+      "default": "19"
+    },
+    "mobilePosition": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ],
+      "default": "top"
+    },
+    "imgObjectFit": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "contain",
+        "cover",
+        "fill",
+        "scale-down"
+      ],
+      "default": "none"
+    },
+    "topsubheading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
     }
   }
 }
