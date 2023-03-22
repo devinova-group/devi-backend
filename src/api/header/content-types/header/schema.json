@@ -4,15 +4,18 @@
   "info": {
     "singularName": "header",
     "pluralName": "headers",
-    "displayName": "Header"
+    "displayName": "Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "list": {
-      "type": "json"
+    "navitems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navitem.navitem"
     }
   }
 }

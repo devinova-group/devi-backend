@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "Footer"
+    "displayName": "Footer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,11 @@
     },
     "location": {
       "type": "string"
+    },
+    "navitems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navitem.navitem"
     }
   }
 }
