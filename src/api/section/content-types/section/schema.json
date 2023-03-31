@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "subheading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "topsubheading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "objectFit": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "contain",
+        "cover",
+        "fill",
+        "scale-down"
+      ]
+    },
+    "imgPosition": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "mobileImgPosition": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ]
+    },
+    "gap": {
+      "type": "integer"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.button"
+    },
+    "section": {
+      "type": "uid",
+      "default": "section",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "texts",
+  "info": {
+    "singularName": "text",
+    "pluralName": "texts",
+    "displayName": "Text",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bgColor": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "yellow",
+        "blue"
+      ]
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "mobilePosition": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ]
+    },
+    "section": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

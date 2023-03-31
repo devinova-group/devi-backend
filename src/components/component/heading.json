@@ -6,8 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "body": {
+      "type": "text"
     },
     "position": {
       "type": "enumeration",

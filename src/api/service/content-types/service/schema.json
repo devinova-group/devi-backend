@@ -28,13 +28,14 @@
       "repeatable": false,
       "component": "component.heading"
     },
-    "description": {
+    "body": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "servicename": {
-      "type": "string"
+    "serviceName": {
+      "type": "uid",
+      "required": true
     }
   }
 }
