@@ -15,15 +15,17 @@
     "pagename": {
       "type": "uid"
     },
-    "contents": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::content.content"
-    },
     "banner": {
       "type": "component",
       "repeatable": false,
       "component": "component.banner"
+    },
+    "comps": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.features",
+        "blocks.section"
+      ]
     }
   }
 }
