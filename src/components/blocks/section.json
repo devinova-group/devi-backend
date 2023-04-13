@@ -78,17 +78,10 @@
         "audios"
       ]
     },
-    "header": {
-      "type": "string"
-    },
-    "subheader": {
-      "type": "string"
-    },
-    "topsubheader": {
-      "type": "string"
-    },
-    "body": {
-      "type": "text"
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.heading"
     }
   }
 }
