@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_component_cards",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "expandable"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "large",
+        "small"
+      ]
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    }
+  }
+}
