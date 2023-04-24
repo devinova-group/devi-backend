@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
         maxLimit: 100,
         apolloServer: {
           tracing: true,
-       /*    introspection: true, */
+         introspection: true,
         },
       },
     },
