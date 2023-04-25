@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_component_text_headers",
+  "info": {
+    "displayName": "TextHeader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "imageTop",
+        "imageBottom",
+        "imageLeft",
+        "imageRight"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
