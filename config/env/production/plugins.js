@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-   /*  graphql: {
+ graphql: {
       enabled: true,
       config: {
         endpoint: "/graphql",
@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
          introspection: true,
         },
       },
-    }, */
+    }, 
   // ...
   upload: {
     config: {
