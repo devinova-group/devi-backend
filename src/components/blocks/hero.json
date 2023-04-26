@@ -1,7 +1,8 @@
 {
   "collectionName": "components_blocks_heroes",
   "info": {
-    "displayName": "Hero"
+    "displayName": "Hero",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,23 +17,24 @@
       "component": "component.button"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
-    "imgPosition": {
+    "imagesPosition": {
       "type": "enumeration",
       "enum": [
         "right",
         "left"
       ]
     },
-    "mobileImgPosition": {
+    "mobileImagesPosition": {
       "type": "enumeration",
       "enum": [
         "top",
@@ -40,24 +42,26 @@
       ]
     },
     "backgroundImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "darkBackgroundImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "gap": {
       "type": "integer"
