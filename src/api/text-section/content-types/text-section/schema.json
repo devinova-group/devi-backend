@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "text_sections",
+  "info": {
+    "singularName": "text-section",
+    "pluralName": "text-sections",
+    "displayName": "TextSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.with-background"
+    },
+    "TextHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.text-header"
+    }
+  }
+}
