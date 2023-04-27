@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_blocks_heroes",
+  "collectionName": "components_blocks_hero_headers",
   "info": {
-    "displayName": "Hero",
-    "description": ""
+    "displayName": "HeroHeader"
   },
   "options": {},
   "attributes": {
@@ -15,17 +14,6 @@
       "type": "component",
       "repeatable": true,
       "component": "component.button"
-    },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     },
     "imagesPosition": {
       "type": "enumeration",
@@ -41,30 +29,38 @@
         "bottom"
       ]
     },
-    "backgroundImg": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "darkBackgroundImg": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "gap": {
       "type": "integer"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "darkBackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

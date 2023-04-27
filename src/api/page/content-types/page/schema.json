@@ -25,7 +25,7 @@
       "components": [
         "blocks.features",
         "blocks.section",
-        "blocks.hero"
+        "blocks.hero-header"
       ]
     }
   }
