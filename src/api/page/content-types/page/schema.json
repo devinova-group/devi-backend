@@ -19,13 +19,9 @@
       "type": "dynamiczone",
       "components": [
         "blocks.features",
-        "blocks.section"
+        "blocks.section",
+        "blocks.hero-header"
       ]
-    },
-    "Hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.hero-header"
     }
   }
 }
