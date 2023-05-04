@@ -4,7 +4,7 @@
   "info": {
     "singularName": "navigation",
     "pluralName": "navigations",
-    "displayName": "Navigation",
+    "displayName": "navigation",
     "description": ""
   },
   "options": {
@@ -12,20 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Logo": {
+    "navbar": {
+      "type": "dynamiczone",
+      "components": [
+        "component.link",
+        "component.drop-down"
+      ]
+    },
+    "logo": {
       "type": "component",
       "repeatable": false,
       "component": "component.navbar-brand"
-    },
-    "DropDown": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.drop-down"
-    },
-    "Links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.link"
     }
   }
 }

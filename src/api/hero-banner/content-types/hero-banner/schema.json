@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_banners",
+  "info": {
+    "singularName": "hero-banner",
+    "pluralName": "hero-banners",
+    "displayName": "heroBanner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "imageLeft",
+        "imageRight"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "imageButton",
+        "actionButton"
+      ]
+    },
+    "gradient": {
+      "type": "boolean"
+    },
+    "paragraph": {
+      "type": "richtext"
+    }
+  }
+}

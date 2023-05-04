@@ -1,0 +1,37 @@
+{
+    "collectionName": "components_blocks_text_headers",
+    "info": {
+      "displayName": "text-header",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "imagePosition": {
+        "type": "enumeration",
+        "enum": [
+          "imageTop",
+          "imageBottom",
+          "imageLeft",
+          "imageRight"
+        ]
+      },
+      "paragraph": {
+        "type": "richtext"
+      },
+      "image": {
+        "type": "media",
+        "multiple": false,
+        "required": false,
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos",
+          "audios"
+        ]
+      }
+    }
+  }
+  

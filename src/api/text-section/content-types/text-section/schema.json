@@ -1,25 +1,23 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "text_sections",
   "info": {
     "singularName": "text-section",
     "pluralName": "text-sections",
-    "displayName": "TextSection"
+    "displayName": "textSection",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Background": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component.with-background"
-    },
-    "TextHeader": {
-      "type": "component",
-      "repeatable": false,
-      "component": "component.text-header"
+    "textSection": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.text-header"
+      ]
     }
   }
 }
