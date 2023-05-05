@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_social_medias",
+  "info": {
+    "displayName": "socialMedias"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
