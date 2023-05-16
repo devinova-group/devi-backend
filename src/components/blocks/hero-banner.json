@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_blocks_hero_banners",
+  "info": {
+    "displayName": "heroBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imgPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "actionButton",
+        "imageButton"
+      ]
+    },
+    "gradientHero": {
+      "type": "boolean"
+    },
+    "paragraphHero": {
+      "type": "richtext"
+    }
+  }
+}

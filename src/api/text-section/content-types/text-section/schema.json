@@ -16,7 +16,8 @@
       "type": "dynamiczone",
       "components": [
         "blocks.banner",
-        "blocks.text-header"
+        "blocks.text-header",
+        "blocks.hero-banner"
       ]
     }
   }

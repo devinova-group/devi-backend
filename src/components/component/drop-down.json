@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "link": {
+    "labeldropdown": {
+      "type": "string"
+    },
+    "links": {
       "type": "component",
       "repeatable": true,
       "component": "component.link"
-    },
-    "labeldropdown": {
-      "type": "string"
     }
   }
 }

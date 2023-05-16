@@ -18,8 +18,9 @@
     "comps": {
       "type": "dynamiczone",
       "components": [
-        "blocks.features",
-        "blocks.section"
+        "blocks.banner",
+        "blocks.text-header",
+        "blocks.hero-banner"
       ]
     }
   }
