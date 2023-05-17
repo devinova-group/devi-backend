@@ -33,6 +33,16 @@
       "type": "component",
       "repeatable": true,
       "component": "component.button"
+    },
+    "imageLight": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
