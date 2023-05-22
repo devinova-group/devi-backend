@@ -6,30 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "buttonTitle": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "imagePosition": {
-      "type": "enumeration",
-      "enum": [
-        "left",
-        "right"
-      ]
-    },
     "layout": {
       "type": "enumeration",
       "enum": [
@@ -40,8 +16,25 @@
     "gradientHero": {
       "type": "boolean"
     },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
     "paragraphHero": {
-      "type": "richtext"
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "img": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.image"
     }
   }
 }

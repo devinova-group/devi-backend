@@ -1,43 +1,27 @@
 {
-    "collectionName": "components_blocks_banners",
-    "info": {
-      "displayName": "banner",
-      "description": ""
+  "collectionName": "components_blocks_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "gradient": {
+      "type": "enumeration",
+      "enum": [
+        "gradientOne",
+        "gradientTwo"
+      ]
     },
-    "options": {},
-    "attributes": {
-      "title": {
-        "type": "string"
-      },
-      "image": {
-        "type": "media",
-        "multiple": false,
-        "required": false,
-        "allowedTypes": [
-          "images",
-          "files",
-          "videos",
-          "audios"
-        ]
-      },
-      "imageMobile": {
-        "type": "media",
-        "multiple": false,
-        "required": false,
-        "allowedTypes": [
-          "images",
-          "files",
-          "videos",
-          "audios"
-        ]
-      },
-      "gradient": {
-        "type": "enumeration",
-        "enum": [
-          "gradientOne",
-          "gradientTwo"
-        ]
-      }
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.heading"
+    },
+    "img": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.image"
     }
   }
-  
+}
