@@ -16,8 +16,8 @@
         "start",
         "end"
       ],
-      "required": true,
-      "default": "start"
+      "required": false,
+      "default": "center"
     },
     "variant": {
       "type": "enumeration",

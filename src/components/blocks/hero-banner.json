@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "layout": {
+    "layoutHero": {
       "type": "enumeration",
       "enum": [
         "imageButton",
@@ -16,12 +16,12 @@
     "gradientHero": {
       "type": "boolean"
     },
-    "button": {
+    "buttonHero": {
       "type": "component",
       "repeatable": false,
       "component": "component.button"
     },
-    "title": {
+    "titleHero": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
@@ -31,7 +31,7 @@
       "repeatable": false,
       "component": "component.heading"
     },
-    "img": {
+    "imgHero": {
       "type": "component",
       "repeatable": false,
       "component": "component.image"

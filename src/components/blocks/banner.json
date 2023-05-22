@@ -6,21 +6,21 @@
   },
   "options": {},
   "attributes": {
-    "gradient": {
+    "gradientBanner": {
       "type": "enumeration",
       "enum": [
         "gradientOne",
         "gradientTwo"
       ]
     },
-    "title": {
+    "titleBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "img": {
+    "imgBanner": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "component.image"
     }
   }
