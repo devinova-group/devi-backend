@@ -35,6 +35,11 @@
       "type": "component",
       "repeatable": false,
       "component": "component.image"
+    },
+    "bgHeroBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.background"
     }
   }
 }

@@ -22,6 +22,11 @@
       "type": "component",
       "repeatable": false,
       "component": "component.image"
+    },
+    "bgTextBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.background"
     }
   }
 }
