@@ -1,24 +1,24 @@
 {
   "collectionName": "components_blocks_banners",
   "info": {
-    "displayName": "banner",
+    "displayName": "text-banner",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "gradientBanner": {
+    "gradientTextBanner": {
       "type": "enumeration",
       "enum": [
         "gradientOne",
         "gradientTwo"
       ]
     },
-    "titleBanner": {
+    "titleTextBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "imgBanner": {
+    "imgTextBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.image"

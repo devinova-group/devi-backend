@@ -6,32 +6,32 @@
   },
   "options": {},
   "attributes": {
-    "layoutHero": {
+    "layoutHeroBanner": {
       "type": "enumeration",
       "enum": [
         "imageButton",
         "actionButton"
       ]
     },
-    "gradientHero": {
+    "gradientHeroBanner": {
       "type": "boolean"
     },
-    "buttonHero": {
+    "buttonHeroBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.button"
     },
-    "titleHero": {
+    "titleHeroBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "paragraphHero": {
+    "paragraphHeroBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "imgHero": {
+    "imgHeroBanner": {
       "type": "component",
       "repeatable": false,
       "component": "component.image"

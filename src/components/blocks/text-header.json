@@ -1,22 +1,22 @@
 {
   "collectionName": "components_blocks_text_headers",
   "info": {
-    "displayName": "text-header",
+    "displayName": "text-section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "titleHeader": {
+    "titleTextSection": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "paragraphHeader": {
+    "paragraphTextSection": {
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
     },
-    "imgHeader": {
+    "imgTextSection": {
       "type": "component",
       "repeatable": false,
       "component": "component.image"
