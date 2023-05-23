@@ -25,7 +25,7 @@
     },
     "bgTextBanner": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "component.background"
     }
   }
