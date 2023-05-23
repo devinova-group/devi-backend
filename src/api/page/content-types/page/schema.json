@@ -22,7 +22,8 @@
         "blocks.section",
         "blocks.hero-banner",
         "blocks.text-header",
-        "blocks.banner"
+        "blocks.banner",
+        "blocks.hero-header"
       ]
     }
   }
