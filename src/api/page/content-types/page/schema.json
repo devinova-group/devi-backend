@@ -23,7 +23,8 @@
         "blocks.hero-banner",
         "blocks.text-header",
         "blocks.banner",
-        "blocks.hero-header"
+        "blocks.hero-header",
+        "blocks.testimonials-v1"
       ]
     }
   }
