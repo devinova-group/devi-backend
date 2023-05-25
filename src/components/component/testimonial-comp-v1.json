@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_blocks_testimonials_v1s",
+  "collectionName": "components_component_testimonial_comp_v1s",
   "info": {
-    "displayName": "testimonialsV1",
+    "displayName": "testimonialV1",
     "description": ""
   },
   "options": {},
@@ -13,17 +13,17 @@
     },
     "imgV1": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "component.image"
     },
     "subheadV1": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "component.heading"
     },
     "paragraphV1": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "component.heading"
     }
   }

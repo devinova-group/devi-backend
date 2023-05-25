@@ -24,7 +24,7 @@
         "blocks.text-header",
         "blocks.banner",
         "blocks.hero-header",
-        "blocks.testimonials-v1"
+        "component.testimonial-comp-v1"
       ]
     }
   }
