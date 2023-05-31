@@ -21,6 +21,12 @@
     },
     "inputPlaceholder": {
       "type": "string"
+    },
+    "labelTitle": {
+      "type": "string"
+    },
+    "labelHtml": {
+      "type": "string"
     }
   }
 }

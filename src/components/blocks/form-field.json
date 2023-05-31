@@ -26,11 +26,6 @@
       "repeatable": false,
       "component": "component.image"
     },
-    "formLabel": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.label"
-    },
     "formInput": {
       "type": "component",
       "repeatable": true,
