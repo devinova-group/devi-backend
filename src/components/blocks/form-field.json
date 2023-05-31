@@ -30,6 +30,24 @@
       "type": "component",
       "repeatable": true,
       "component": "component.input"
+    },
+    "formSubheadTwo": {
+      "type": "string"
+    },
+    "formTextArea": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.text-area"
+    },
+    "formSelect": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.select-type"
+    },
+    "formButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
     }
   }
 }

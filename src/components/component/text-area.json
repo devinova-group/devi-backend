@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_component_text_areas",
+  "info": {
+    "displayName": "textArea"
+  },
+  "options": {},
+  "attributes": {
+    "textAreaName": {
+      "type": "string"
+    },
+    "textAreaPlaceholder": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "integer"
+    },
+    "mb": {
+      "type": "integer"
+    },
+    "textAreaLabel": {
+      "type": "string"
+    },
+    "textAreaHtml": {
+      "type": "string"
+    }
+  }
+}
