@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_inputs",
+  "info": {
+    "displayName": "input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "inputName": {
+      "type": "string"
+    },
+    "inputTypes": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "password",
+        "radio",
+        "submit"
+      ]
+    },
+    "inputPlaceholder": {
+      "type": "string"
+    }
+  }
+}

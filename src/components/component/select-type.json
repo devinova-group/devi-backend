@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_select_types",
+  "info": {
+    "displayName": "SelectType"
+  },
+  "options": {},
+  "attributes": {
+    "selectOption": {
+      "type": "string"
+    }
+  }
+}
