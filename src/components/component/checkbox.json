@@ -1,7 +1,8 @@
 {
   "collectionName": "components_component_checkboxes",
   "info": {
-    "displayName": "checkbox"
+    "displayName": "checkbox",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
     },
     "checkDefault": {
       "type": "boolean"
+    },
+    "checkboxTitle": {
+      "type": "string"
     }
   }
 }

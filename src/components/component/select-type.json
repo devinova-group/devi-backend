@@ -11,6 +11,9 @@
     },
     "selectDefault": {
       "type": "string"
+    },
+    "selectTitle": {
+      "type": "string"
     }
   }
 }

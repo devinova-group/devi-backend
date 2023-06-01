@@ -1,7 +1,8 @@
 {
   "collectionName": "components_component_radios",
   "info": {
-    "displayName": "radio"
+    "displayName": "radio",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,9 @@
     },
     "defaultChecked": {
       "type": "boolean"
+    },
+    "radioTitle": {
+      "type": "string"
     }
   }
 }
