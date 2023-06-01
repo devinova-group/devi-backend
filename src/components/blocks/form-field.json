@@ -53,6 +53,11 @@
       "type": "component",
       "repeatable": true,
       "component": "component.text-area"
+    },
+    "formSubmit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
     }
   }
 }
