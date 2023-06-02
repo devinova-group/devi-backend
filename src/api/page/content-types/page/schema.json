@@ -26,7 +26,8 @@
         "blocks.hero-header",
         "blocks.testimonial-comp-v1",
         "blocks.testimonial-v2",
-        "blocks.form-field"
+        "blocks.form-field",
+        "blocks.card-images"
       ]
     }
   }

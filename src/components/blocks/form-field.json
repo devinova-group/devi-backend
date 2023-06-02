@@ -60,6 +60,16 @@
       "type": "component",
       "repeatable": false,
       "component": "component.heading"
+    },
+    "formLayout": {
+      "type": "enumeration",
+      "enum": [
+        "leftForm",
+        "rightForm",
+        "noTextContent"
+      ],
+      "default": "rightForm",
+      "required": true
     }
   }
 }
