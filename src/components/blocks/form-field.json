@@ -68,8 +68,7 @@
         "rightForm",
         "noTextContent"
       ],
-      "default": "rightForm",
-      "required": true
+      "required": false
     }
   }
 }
