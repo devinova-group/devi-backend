@@ -29,7 +29,18 @@
         "password"
       ]
     },
-    "formIcon": {
+    "formIconLight": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "formIconDark": {
       "allowedTypes": [
         "images",
         "files",
