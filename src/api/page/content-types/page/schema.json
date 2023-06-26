@@ -27,7 +27,9 @@
         "blocks.testimonial-comp-v1",
         "blocks.testimonial-v2",
         "blocks.form-field",
-        "blocks.card-images"
+        "blocks.card-images",
+        "blocks.title-links",
+        "blocks.list-section"
       ]
     }
   }
