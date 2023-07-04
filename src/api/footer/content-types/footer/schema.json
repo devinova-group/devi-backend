@@ -21,76 +21,30 @@
     "number": {
       "type": "string"
     },
-    "location": {
+    "locationTitle": {
       "type": "string"
     },
-    "navitems": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::navitem.navitem"
+    "footerLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.logo"
     },
-    "twitter": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "footerSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-media"
     },
-    "instagram": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "copyright": {
+      "type": "string"
     },
-    "linkedin": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "infoText": {
+      "type": "string"
     },
-    "instaDark": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "socialTitle": {
+      "type": "string"
     },
-    "twitterDark": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "linkedinDark": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "postNummerCity": {
+      "type": "string"
     }
   }
 }

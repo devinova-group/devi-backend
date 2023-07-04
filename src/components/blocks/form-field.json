@@ -36,16 +36,6 @@
       "repeatable": true,
       "component": "component.select-type"
     },
-    "formRadio": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.radio"
-    },
-    "formCheckbox": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.checkbox"
-    },
     "formTextArea": {
       "type": "component",
       "repeatable": true,

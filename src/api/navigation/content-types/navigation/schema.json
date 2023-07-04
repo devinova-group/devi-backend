@@ -19,10 +19,10 @@
         "component.drop-down"
       ]
     },
-    "logo": {
+    "navLogo": {
       "type": "component",
       "repeatable": false,
-      "component": "component.navbar-brand"
+      "component": "component.logo"
     }
   }
 }
